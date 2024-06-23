@@ -49,6 +49,11 @@ header {
   right: 4rem;
 }
 
+/* ........Create hamburger menu here later....... */
+  /* #hamburger::before {
+    content: "☰";
+  } */
+
 nav ul {
   display: none;
   list-style-type: none;
@@ -99,12 +104,9 @@ figure {
 
 figure img {
   max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-figcaption {
-  padding-top: 0.5rem;
+  width: 300px; 
+  height: 200px;
+  /* display: block; */
 }
 
 footer {
