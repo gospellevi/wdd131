@@ -9,4 +9,4 @@
 
 const fullname = (first, last) => `${first} ${last}`;
 
-console.log(fullname("Amadi", "Oha"));
+console.log(fullname("Amadi", "-OHA"));
