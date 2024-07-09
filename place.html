@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Page</title>
+    <meta name="description" content="The Country I live in | Nigeria">
+    <meta name="author" content="Gospel Levi">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header><h1>Nigeria</h1></header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-large.web" media="min-width: 1000px">
+                <source srcset="images/hero-medium.webp" media="min-width: 500px">
+                <img src="images/IMG_84410.jpg" alt="Remote area of Nigeria" width="500" height="250">    
+            </picture>
+
+            <section class="hero data">
+                <h3>Nigeria</h3>
+                <div class="data-item">
+                    <label for="population">Population:</label>
+                    <span id="population">200 million</span>
+                </div>
+                <div class="data-item">
+                    <label for="area">Area:</label>
+                    <span id="area">923,600 km<sup>2</sup></span>
+                </div>
+                <div class="data-item">
+                    <label for="continent">Continent:</label>
+                    <span id="continent">Africa</span>
+                </div>
+                <div class="data-item">
+                    <label for="capital">Capital:</label>
+                    <span id="capital">Abuja</span>
+                </div>
+                <div class="data-item">
+                    <label for="languages">Languages:</label>
+                    <span id="languages">English, Igbo, Hausa, Yoruba</span>
+                </div>
+                <div class="data-item">
+                    <label for="currency">Currency:</label>
+                    <span id="currency">Naira</span>
+                </div>
+                <div class="data-item">
+                    <label for="flag">Flag:</label>
+                    <span id="flag"><img src="images/Flag.jpg" alt="Nigerian Flag" width="30px"></span>
+                </div>
+                <div class="data-item">
+                    <label for="timezone">Timezone:</label>
+                    <span id="timezone">WAT +1</span>
+                </div>
+                <div class="data-item">
+                    <label for="calling-code">Calling Code:</label>
+                    <span id="calling-code">+234</span>
+                </div>
+            </section>
+
+            <section class="hero weather">
+                <h3>Weather</h3>
+                <div id="weather-icon">🌦</div>
+                <div class="data-item">
+                    <label for="temp">Temperature:</label>
+                    <span id="temp">20°C</span>
+                </div>
+                <div class="data-item">
+                    <label for="humidity">Conditions:</label>
+                    <span id="humidity">Partly cloudy</span>
+                </div>
+                <div class="data-item">
+                    <label for="wind">Wind Speed:</label>
+                    <span id="wind">10 km/h</span>
+                </div>
+                <div class="data-item">
+                    <label for="windchill">Wind Chill:</label>
+                    <span id="windchill">N/A</span>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> 🌍 Gospel Levi 🌍 Abia, Nigeria</p>
+        <p id="lastmodified"></p>
+    </footer>
+</body>
+</html>
