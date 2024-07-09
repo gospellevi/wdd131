@@ -1,0 +1,90 @@
+/* Mobile styles */
+
+:root {
+    --primary-color: #2E8B57; /* Green representing Nigeria's flag */
+    --secondary-color: #ffffff; /* White representing Nigeria's flag */
+    --background-color: #f0f8ff;
+    --header-color: #333;
+    --font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: var(--header-color);
+    text-align: center;
+}
+
+/* main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+picture img {
+    width: 100%;
+    height: auto;
+}
+
+#weather-info img {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.hero .weather {
+    margin-top: 0.25em;
+}
+
+.hero .data, .hero .weather {
+    background-color: #fff;
+    padding: 1em;
+}
+
+
+.data span, .weather span {
+    font-weight: bold;
+}
+
+
+footer p {
+    margin: 0;
+}
+
+/* Pseudo classes and elements */
+
+.data:hover, .weather:hover {
+    background-color: #e2ffe2;
+}
+
+.data-item {
+    padding: 0.5em 0;
+}
+
+.data-item label, .data-item span {
+    margin: 0.2em 0;
+}
+
+

@@ -1,0 +1,107 @@
+@media screen and (min-width: 600px) {
+
+    :root {
+        --primary-color: #2E8B57; /* Green representing Nigeria's flag */
+        --secondary-color: #ffffff; /* White representing Nigeria's flag */
+        --background-color: #f0f8ff;
+        --header-color: #333;
+        --font-family: Arial, sans-serif;
+    }
+
+    /* body {
+        max-width: 1200px;
+    } */
+
+    /* body {
+        margin: 0;
+        font-family: var(--font-family);
+        background-color: var(--background-color);
+        color: var(--primary-color);
+        text-align: center;
+    } */
+
+    header {
+        /* align-items: center; */
+    }
+
+    .hero {
+        /* max-width: fit-content; */
+        
+        /* height: 100%; */
+    }
+
+    /* .hero .data, .hero .weather {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 1em;
+        margin: 1em;
+    } */
+
+    .hero picture img{
+        width: 1200px;
+        height: 100vh;
+    }
+    
+    .data, .weather {
+        position: absolute;
+    }
+
+    .hero .data {
+        top: 20%;
+        left: 25%;
+        transform: translateX(-40%);
+    }
+    
+    .hero .weather {
+        bottom: 10%;
+        left: 75%;
+        transform: translateX(-40%);
+    }
+
+    /* #weather-info::after {
+        content: url('images/clouds_sunny_icon.svg');
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-left: 0.5em;
+    } */
+
+    /* .data {
+        width: 40%;
+        left: 2rem;
+        top: 15em;
+        margin-right: 1em;
+    }
+
+    .weather {
+        width: 30%;
+        top: 25em;
+        right: 2.5rem;
+        order: 3; 
+    } */
+
+    .weather h3 {
+        display: flex;
+        align-items: center;
+    }
+
+    #weather-info img{
+        display: inline-block;
+    }
+
+    #country-info, #weather-info {
+    background-color: var(--primary-color);
+    margin-left: -1.5rem;
+    padding: 0.5rem;
+    }
+
+    .weather-icon::after {
+        content: "\26C5"; /* Unicode character for ⛅ */
+        font-size: 2em; /* Adjust size of the emoticon */
+        margin-left: 0.5em; /* Add space between icon and text */
+    }
+
+    footer {
+        padding: 1em 0;
+    }
+}
