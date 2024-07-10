@@ -1,0 +1,39 @@
+Proposed Website Structure for Chubbo Equipment and Supplies Limited
+
+1. Home Page
+Introduction: Brief overview of the company, its mission, and vision.
+Highlights: Key services and unique selling points.
+Call to Action: Contact details or a prompt to learn more about the services.
+
+2. About Us
+Company History: Founding details, significant milestones, and evolution.
+Team: Profiles of key team members including Mr. Effingham Bassey, Mr. Nsikak, Mr. Levi Gospel, and Mr. Levi Fulness.
+Values and Philosophy: Core values and business philosophy.
+
+3. Services
+Solar Inverter Installations: Detailed description of services, process, and benefits.
+Supplies and Procurement: Types of equipment and supplies offered.
+General Merchandise and Contracts: Overview of merchandise and types of contracts handled.
+
+4. Projects
+Gallery: Pictures of completed jobs with descriptions.
+Case Studies: Detailed write-ups of notable projects, challenges faced, and solutions provided.
+
+5. Blog
+Industry News: Updates on the latest trends in solar energy and general merchandise.
+Company Updates: News about the company’s recent activities, new projects, and achievements.
+Tips and Guides: Helpful articles on topics like solar installation, equipment maintenance, etc.
+
+6. Contact Us
+Contact Form: For inquiries and service requests.
+Location: Office address with a map.
+Social Media Links: Links to company’s social media profiles.
+Design Considerations
+Alignment and Proximity: Ensure all elements are well-aligned and spaced for easy readability.
+Color Contrast: Use a color scheme that reflects the company’s brand, with good contrast for accessibility.
+Repetition: Consistent use of fonts, colors, and design elements across the site.
+Usability: Ensure the site is easy to navigate with clear calls to action.
+Responsive Design: Use media queries to ensure the site looks great on all devices.
+Global CSS Variables: Implement global variables for colors, fonts, and spacing to maintain consistency.
+Pseudo-Elements: Use pseudo-elements to add decorative elements or additional information without cluttering the HTML.
+This project not only aligns with your current skills and interests but also provides a practical and meaningful application of your web development education.

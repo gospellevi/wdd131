@@ -1,0 +1,47 @@
+Project Proposal: Legos Consult Information Website
+Topic: Creating an information website for Legos Consult, a study travel company.
+
+General Site Content:
+
+Home Page:
+
+Introduction: Brief overview of Legos Consult, its mission, and vision.
+Services Highlight: Quick summary of the services provided.
+Call to Action: Prompt for users to get in touch or learn more about specific services.
+About Us:
+
+Company Background: History, mission, and values of Legos Consult.
+Team: Profiles of key team members and their expertise.
+Testimonials: Success stories and feedback from past clients.
+Services:
+
+International School Admissions:
+Assistance with applications to schools abroad.
+Guidance on choosing the right school and program.
+School Payments:
+Handling of various payments like admission fees, SEVIS, school fees, WES fees, etc.
+Visa Processing:
+Step-by-step guidance on visa application processes.
+Assistance with visa fee payments.
+Test of English Preparation:
+Information on TOEFL, IELTS, CELPIP, PTE, DUOLINGO Test, etc.
+Enrollment details for preparation classes and exam fee payments.
+Blog:
+
+Study Abroad Tips: Articles on preparing for studying abroad, choosing schools, etc.
+Visa Tips: Guidance on navigating the visa process.
+Test Preparation: Tips and strategies for excelling in English proficiency tests.
+Contact Us:
+
+Contact Form: For inquiries and service requests.
+Office Location: Address and map.
+Social Media Links: Links to company’s social media profiles.
+Reason for Choosing This Subject:
+
+I chose Legos Consult as the subject for this project because it aligns closely with my interests and career goals in web development and my aspiration to further my education in cloud computing and Microsoft Cloud administration. Legos Consult's focus on education, international travel, and test preparation is particularly relevant to students and professionals seeking opportunities abroad, making it a valuable and practical topic for a website project. By creating this website, I can showcase my skills in web design and development while also providing a useful resource for individuals pursuing international education and career opportunities.
+
+
+
+
+
+
