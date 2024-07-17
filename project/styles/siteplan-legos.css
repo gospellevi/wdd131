@@ -43,6 +43,19 @@ h1, h2, h3, h4, h5, h6 {
    color: var(--primary-color);
 }
 
+.color-box {
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.color1 {
+    background-color: #3498db;
+}
+.color2 {
+    background-color: #e74c3c;
+}
+
 
 p {
     padding: 5px;
