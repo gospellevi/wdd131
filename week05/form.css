@@ -1,0 +1,133 @@
+body {
+    width: 100%;
+    max-width: 400px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1, footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.prf1 fieldset {
+    background-color: #e7e3e3;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    padding: .5rem 2%;
+}
+
+
+#productRating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-group label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rating-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.rating-item input[type="radio"] {
+    margin-right: 10px;
+}
+
+.stars {
+    margin-top: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.prf1 input[type="radio"] {
+    width: 20px;
+    height: 20px;
+}
+
+
+.prf1 input[type="checkbox"] {
+    margin-right: 6px;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.prf1 input[type="submit"] {
+    padding: 10px 20px;
+    background-image: linear-gradient(#5cb85c, #238a23);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 1rem;
+    width: 80%;
+    margin: -1rem 10% 2rem 10%;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.prf1 span {
+    color: darkblue;
+    font-size: 0.8rem;
+}
+
+
+.review {
+    width: 100%;
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+
+}
+.review h1 {
+    color: black;
+    background-color: #fff;
+    text-align: left;
+    padding: 0;
+}
+
+.review p {
+    font-size: 20px;
+}
+
+.review footer {
+    padding: 5px;
+    margin-top: 10rem;
+}

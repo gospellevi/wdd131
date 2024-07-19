@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Product Review Form | Week 05">
+    <meta name="author" content="Gospel Levi">
+    <title>Product Review Form</title>
+    <link rel="stylesheet" href="form.css">
+    <script defer src="form.js"></script>
+</head>
+<body>
+    <h1>Product Review Form</h1>
+    <form action="review.html" method="get" class="prf1">
+        <fieldset>
+            <div class="form-group">
+                <label for="productName">Product Name</label>
+                <select id="productName" name="productName" required>
+                    <option value="" disabled selected>Select a Product ...</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="productRating">Overall Rating</label>
+                <div id="productRating" class="rating-group">
+                    <label for="rating1"><span>&#9734</span><input type="radio" id="rating1" name="rating" value="1" required></label>
+                    <label for="rating2"><span>&#9734 &#9734</span><input type="radio" id="rating2" name="rating" value="2"></label>
+                    <label for="rating3"><span>&#9734 &#9734 &#9734</span><input type="radio" id="rating3" name="rating" value="3"></label>
+                    <label for="rating4"><span>&#9734 &#9734 &#9734 &#9734</span><input type="radio" id="rating4" name="rating" value="4"></label>
+                    <label for="rating5"><span>&#9734 &#9734 &#9734 &#9734 &#9734</span><input type="radio" id="rating5" name="rating" value="5"></label>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="installationDate">Date of Installation</label>
+                <input type="date" id="installationDate" name="installationDate" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Which features did you fing useful in the product?</label>
+                <label class="italic">(Check all that apply)</label>
+                <div>
+                    <label for="feature1"><input type="checkbox" id="feature1" name="feature" value="feature1">Durability</label>
+                </div>
+                <div>
+                    <label for="feature2"><input type="checkbox" id="feature2" name="feature" value="feature2">Ease of Use</label>
+                </div>
+                <div>
+                    <label for="feature3"><input type="checkbox" id="feature3" name="feature" value="feature3">Performance</label>
+                </div>
+                <div>
+                    <label for="feature3"></label><input type="checkbox" id="feature3" name="feature" value="feature3">Design</label>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="reviewText">Written Review <span>(Optional)</span></label>
+                <textarea id="reviewText" name="reviewText" rows="4"></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="userName">Your Name <span>(Optional)</span></label>
+                <input type="text" id="userName" name="userName">
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" value="Post Review">
+            </div>
+        </fieldset>
+    </form>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> 🌍 Gospel Levi 🌍 Abia, Nigeria</p>
+        <p id="lastmodified"></p>
+    </footer>
+</body>
+</html>
