@@ -64,6 +64,7 @@ input[type="date"],
 textarea,
 select {
     width: 100%;
+    max-width: 340px;
     padding: 8px;
     margin-top: 5px;
     border: 1px solid #ccc;
@@ -92,11 +93,13 @@ select {
     padding: 1rem;
     width: 80%;
     margin: -1rem 10% 2rem 10%;
-    cursor: pointer;
+    font-size: 24px;
 }
 
 input[type="submit"]:hover {
-    background-color: #4cae4c;
+    background-image: linear-gradient(#777676, #6daf6d);
+    color: #000;
+    font-weight: 700;
 }
 
 .italic {
