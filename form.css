@@ -27,7 +27,7 @@ h1, footer {
 }
 
 
-#productRating {
+.rating-group {
     display: flex;
     justify-content: space-between;
 }
