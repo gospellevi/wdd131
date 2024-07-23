@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WDD 131 - WEBSITE PROJECT- Gospel Levi</title>
+    <meta name="description" content="WDD131: The home page of LEGOS Consult, a Study Travel Website Project for Dynamic Web Fundamentals.">
+    <meta name="author" content="Gospel Levi">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/index-large.css">
+    <script src="scripts/index.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <div class="top-bar">
+                <button id="loginBtn">Login</button>
+                <button id="signupBtn">Sign Up</button>
+            </div>
+            <div class="logo">
+                <a href="index.html"><img src="images/LEGOS-logo.svg" alt="Legos Consult Logo" width="100"></a>
+                <a href="index.html">Legos Consult</a>
+            </div>
+    
+            <!-- <button id="hamburger">&#9776;</button> -->
+            <nav id="navMenu">
+                <ul>
+                    <li><a href="index.html" rel="noopener noreferrer">Home</a></li>
+                    <li><a href="about.html" target="_blank" rel="noopener noreferrer">About Us</a></li>
+                    <li><a href="services.html" target="_blank" rel="noopener noreferrer">Services</a></li>
+                    <li><a href="contact.html" target="_blank" rel="noopener noreferrer">Contact Us</a></li>
+                    <li><a href="blog.html" target="_blank" rel="noopener noreferrer">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+    
+            <section class="hero">
+                <img src="images/PRODIREKT.webp" alt="hero image">
+                <div class="tagline">
+                    <h1>Navigate Your Path to Success</h1>
+                    <p>Expert guidance for a seamless international study experience.</p>
+                </div>
+                <form action="services.html" id="serviceForm" target="_blank">
+                    <label for="service" class="serviceOnly">Select a Service:</label>
+                    <select name="service" id="service">
+                        <option value="" disabled selected>Select a Service</option>
+                        <option value="admissions">International School Admissions</option>
+                        <option value="payments">School Payments</option>
+                        <option value="visa">Visa Processing</option>
+                        <option value="preparation">Test of English Preparation</option>
+                    </select>
+                    <button type="submit" class="heroSubmit" form="serviceForm">Find Services</button>
+                </form>
+            </section>
+    
+            <section class="services-highlight">
+                <h2>Our Expert Services</h2>
+                <div class="service-grid">
+                    <div class="service-item">
+                        <img src="images/admissions.webp" alt="International Admissions">
+                        <h3>International School Admissions</h3>
+                        <p class="short">
+                            Assistance with applications to schools abroad and guidance on choosing the right school and program.
+                            <span class="more">Our expert advisors provide personalized support to help you navigate the complex admission process. We ensure you have the best chance of acceptance by aligning your goals with the right institutions.</span>
+                        </p>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                    <div class="service-item">
+                        <img src="images/SchoolMoney.png" alt="School Payments">
+                        <h3>International School Payments</h3>
+                        <p class="short">
+                            Handling various payments like admission fees, SEVIS, school fees, WES fees, etc.
+                            <span class="more">We streamline the payment process to ensure timely and accurate transactions. Our services provide peace of mind, allowing you to focus on your studies without the hassle of financial logistics.</span>
+                        </p>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                    <div class="service-item">
+                        <img src="images/us-study-visa.webp" alt="Visa Processing">
+                        <h3>Study Visa Application Processing</h3>
+                        <p class="short">
+                            Step-by-step guidance on visa application processes and assistance with visa fee payments.
+                            <span class="more">Our experienced team ensures that all necessary documentation is accurately prepared and submitted. We provide ongoing support throughout the process, helping you navigate any challenges and secure your visa successfully.</span>
+                        </p>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                    <div class="service-item">
+                        <img src="images/English-Test.png" alt="Test Preparation">
+                        <h3>Test of English Preparation</h3>
+                        <p class="short">
+                         Information on TOEFL, IELTS, CELPIP, PTE, DUOLINGO Test, etc., and enrollment details for preparation classes and exam fee payments.
+                            <span class="more">Our comprehensive preparation programs are designed to help you achieve your best possible scores. We offer expert guidance, practice materials, and personalized coaching to ensure your success in these crucial language proficiency tests.</span>
+                        </p>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                </div>
+            </section>
+            
+    
+            <section class="company-overview">
+                <h2>About Legos Consult</h2>
+                <p><span>Our Mission:</span><br> Legos Consult is dedicated to helping students and professionals achieve their international education and career goals.<br> Our mission is to provide comprehensive guidance and support, making your journey to study abroad seamless and successful.</p>
+                <p><span>Our vision:</span><br> To be the leading consultancy firm in international education, recognized for our commitment to excellence, integrity, and client satisfaction.
+                    <br>With years of experience in the field, our team of expert advisors is well-versed in the intricacies of international admissions, visa procedures, and educational requirements. We pride ourselves on staying up-to-date with the latest trends and changes in global education, ensuring our clients receive the most accurate and relevant advice.
+                    <br>At Legos Consult, we believe in a personalized approach to each client's unique needs and aspirations. We work closely with you to understand your goals and provide tailored solutions that maximize your chances of success. Our holistic support covers every aspect of your journey, from initial consultations to post-arrival assistance, making sure you have a smooth transition to your new academic environment.
+                </p>
+            </section>
+    
+            <section class="testimonials">
+                <h2>What Our Clients Say</h2>
+                <div class="testimonial">
+                    <img src="images/testimonial1.webp" alt="Jane Doe" class="testimonial-image">
+                    <p>"Legos Consult helped me navigate the complex process of studying abroad with ease. Their guidance was invaluable." - Jane Doe</p>
+                </div>
+                <div class="testimonial">
+                    <img src="images/testimonial2.webp" alt="John Smith" class="testimonial-image">
+                    <p>"Thanks to Legos Consult, I was able to secure admission to my dream school and handle all necessary payments effortlessly." - John Smith</p>
+                </div>
+                <div class="testimonial">
+                    <img src="images/testimonial3.webp" alt="Sarah Johnson" class="testimonial-image">
+                    <p>"The team at Legos Consult provided exceptional support throughout my visa application process. I couldn't have done it without them." - Sarah Johnson</p>
+                </div>
+                <div class="testimonial">
+                    <img src="images/testimonial4.webp" alt="Michael Brown" class="testimonial-image">
+                    <p>"Legos Consult's test preparation classes were instrumental in helping me achieve a high score on the IELTS. Highly recommend their services!" - Michael Brown</p>
+                </div>
+            </section>
+    
+            <section class="contact">
+                <img src="images/students-abroad.webp" alt="Contact Us">
+                <div class="contact-text">
+                    <h2>Contact Us Today for Expert Guidance</h2>
+                    <p>Ready to take the next step towards your international education and career goals? Our team of experienced consultants is here to provide you with personalized support and comprehensive assistance. Whether you have questions about our services, need help with your application, or require detailed information about visa processing, we're here to help.</p>
+                    <a href="contact.html" class="btn" target="_blank">Get in Touch</a>
+                </div>
+                <!-- <img src="images/contact-home.avif" alt="Contact Us"> -->
+            </section>
+        </main>
+    
+        <footer>
+                <p>&copy; <span id="currentyear"></span> Legos Consult. All rights reserved.</p>
+                <p id="lastmodified"></p>
+                <div class="social-media">
+                    <a href="#" target="_blank"><img src="images/facebook-600.png" alt="Facebook icon by Icons8.com"></a>
+                    <a href="#" target="_blank"><img src="images/twitterx-600.png" alt="Twitter icon by Icons8.com"></a>
+                    <a href="#" target="_blank"><img src="images/linkedin-600.png" alt="LinkedIn icons by Icons8.com"></a>
+                </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
