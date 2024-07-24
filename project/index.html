@@ -9,6 +9,7 @@
     <meta name="author" content="Gospel Levi">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/index-large.css">
+    <link rel="stylesheet" href="styles/index-small.css">
     <script src="scripts/index.js" defer></script>
 </head>
 
@@ -40,7 +41,12 @@
         <main>
     
             <section class="hero">
-                <img src="images/PRODIREKT.webp" alt="hero image">
+                <!-- <img src="images/PRODIREKT.webp" alt="hero image"> -->
+                <picture>
+                    <source srcset="images/University-Admission2.webp" media="(min-width: 1200px)">
+                    <source srcset="images/PRODIREKT.webp" media="(min-width: 500px)">
+                    <img src="images/College-Admissions.jpg" alt="Remote area of Nigeria"  aria-hidden="true" loading="lazy">    
+                </picture>
                 <div class="tagline">
                     <h1>Navigate Your Path to Success</h1>
                     <p>Expert guidance for a seamless international study experience.</p>

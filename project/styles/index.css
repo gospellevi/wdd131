@@ -121,7 +121,7 @@ header nav{
   #navMenu.show {
     display: block; /* Show when 'show' class is added */
     position: absolute;
-    transform: translate(65.5rem, -17%);
+    transform: translate(65.5rem, -10%);
     background-color: #0056b3;
     border-radius: 5px;
 }
@@ -133,13 +133,13 @@ nav ul {
 }
 
   nav ul li {
-    margin: 0.2rem 0;
+    margin: 0.1rem 0;
 }
 
   nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: .8rem;
   }
   
 nav ul li a:hover {
@@ -431,30 +431,3 @@ footer .social-media img:hover {
 
 
 /* ------------------------Responsive styles------------------------ */
-@media (max-width: 767px) {
-    .container {
-        width: 100%;
-        padding: 0.5rem;
-    }
-
-    body {
-        font-size: 0.9rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    body {
-        /* display: grid;
-        grid-template-columns: 1fr; */
-        /* flex-direction: column; */
-        align-items: center;
-        justify-content: center;
-        padding: 1rem;  
-
-    }
-    
-}
