@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WDD 131 - WEBSITE PROJECT- Gospel Levi</title>
-    <meta name="description" content="WDD131: The home page of LEGOS Consult, a Study Travel Website Project for Dynamic Web Fundamentals.">
+    <meta name="description" content="WDD131: The Contact page of LEGOS Consult, a Study Travel Website Project for Dynamic Web Fundamentals.">
     <meta name="author" content="Gospel Levi">
     <link rel="stylesheet" href="styles/contact.css">
     <!-- <link rel="stylesheet" href="styles/index-large.css"> -->
@@ -47,11 +47,11 @@
                 </div>
                 <article>
                     <div>
-                        <h4>TALK TO SALES</h4>
-                        <p>Chat with our sales team to discover how our product can work best for you.</p>
+                        <h4>TALK TO STUDY ABROAD TEAM</h4>
+                        <p>Chat with our study abroad team to discover how our services can work best for you.</p>
                         <div class="fone">
-                            <img src="images/phone-100.png" alt="sales contact" width="25">
-                            <p>234 814 6488 839</p>
+                            <img src="images/phone-100.png" alt="Team contact">
+                            <a href="https://call.whatsapp.com/voice/U9uyzVUzJpdtwaosgz0V6C">+234 811 962 8825</a>
                         </div>
                     </div>
                     <div>
@@ -64,22 +64,22 @@
                 </article>
             </div>
             <section class="company-info">
-                <div>
+                <div class="address">
                     <h2>Headquarters</h2>
                     <h4>Lagos, Nigeria</h4>
                     <p>6 Adeniji Street, Oregun, Ikeja</p>
                     <p>Phone: +234 811 962 8825</p>
-                    <p>Email: info@whitewaterraftingco.com</p>
+                    <p>Email: info@legosconsult.com</p>
                     <nav class="sociallinks">
-                        <a href="https://facebook.com" target="_blank"><img src="images/facebook-600.png" alt="Facebook icon by Icons8.com" width="30"></a>
-                        <a href="https://twitter.com" target="_blank"><img src="images/twitterx-600.png" alt="Twitter(X) icon by Icons8.com" width="30"></a>
-                        <a href="https://linkedin.com" target="_blank"><img src="images/linkedin-600.png" alt="LinkedIn icon by Icons8.com" width="30"></a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><img src="images/facebook_icon.png" alt="Facebook icon by Icons8.com" width="30"></a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><img src="images/x_twitter_logo_icon.png" alt="Twitter(X) icon by Icons8.com" width="30"></a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><img src="images/linked_in_icon.png" alt="LinkedIn icon by Icons8.com" width="30"></a>
                     </nav>
                 </div>
     
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.3678494289434!2d3.3654534512107683!3d6.601125595202838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b924fb76dbc6f%3A0xc9e7dbe55f2e5967!2s6%20Adeniji%20St%2C%20Oregun%20101233%2C%20Ikeja%2C%20Lagos!5e0!3m2!1sen!2sng!4v1680749431348!5m2!1sen!2sng"
-                    width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                     title="map" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </section>
@@ -87,41 +87,50 @@
             <section class="employee-profiles">
                 <h3>Meet Our Team</h3>
                 <div>
-                    <img src="images/Levi.png" alt="CEO" width="350" height="400">
-                    <img src="images/Regina1.png" alt="Operations Manager" width="350" height="400">
-                    <img src="images/Grace_Nash.webp" alt="Tour Guide" width="350" height="400">
-                    <h5>Gospel Levi<br>Chief Executive officer</h5>
+                    <img src="images/Regina1.png" alt="Operations Manager">
+                    <img src="images/Levi.png" alt="Expert Tutor">
+                    <img src="images/Grace_Nash.webp" alt="International School Agent">
                     <h5>Regina Ekwenye<br>Operations Manager</h5>
-                    <h5>Grace Nash<br>Tour Guide</h5>
+                    <h5>Gospel Levi<br>Expert Tutor</h5>
+                    <h5>Grace Nash<br>International Partner</h5>
                 </div>  
             </section>
     
-            <form action="#" method="get">
+            <form action="newsletter.html" method="get" class="contact-form">
                 <fieldset>
                     <legend>Send Us a Message</legend>
-                    <p>Thank you for your interest in our Whitewater Rafting Company. <br>
-                        Please use the form below to get in touchwith us or give us a call or send us an email.
-                    </p>
-                    <div class="name-email">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" placeholder="Your full name" required>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" placeholder="Your email address" required>
+
+                    <div class="form-group">
+                        <label for="message">Thank you for your interest in our Online Study Travel Company. <label>
+                        <label for="message">Please use the form below to get in touch with us or give us a call or send us an email.</label>
                     </div>
-                    <h4>Message Purpose</h4>
-                    <div class="radios">
-                        <input type="radio" name="options" id="geninq" value="generalEnquiry">
-                        <label for="geninq">General Inquiry</label>
-                        <input type="radio" name="options" id="resquestion" value="reservationQuestion">
-                        <label for="resquestion">Reservation Question</label>
-                        <input type="radio" name="options" id="websugg" value="websiteSuggestion">
-                        <label for="websugg">Website Suggestion</label>
-                        <textarea id="enqmessage" cols="30" rows="10"
-                            placeholder="Enter details of your enquiry here"></textarea>
-                        <input type="checkbox" id="subscribe">
-                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+
+                    <div class="form-group">    
+                        <label for="name">Name:</label><input type="text" id="name" name="name" placeholder="Your full name" required></label>
+                        <label for="email">Email:<input type="email" id="email" name="email" placeholder="Your email address" required></label>
+                    </div>  
+    
+                    <div class="form-group">
+                        <div class="radios">
+                            <label for="purpose">Message Purpose:</label>
+                            <label for="geninq"><input type="radio" name="options" id="geninq" value="generalEnquiry">General Inquiry</label>
+                            <label for="resquestion"><input type="radio" name="options" id="resquestion" value="reservationQuestion">Reservation Question</label>
+                            <label for="websugg"><input type="radio" name="options" id="websugg" value="websiteSuggestion">Website Suggestion</label>
+                        </div>
                     </div>
-                    <input type="submit" value="Submit Form">
+
+                    <div class="form-group">
+                        <textarea id="enqmessage" cols="30" rows="10" placeholder="Enter details of your enquiry here"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                    <label for="subscribe"><input type="checkbox" id="subscribe">Please subscribe me to the monthly newsletter</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="Send Message">
+                    </div>
+
                 </fieldset>
             </form>
 

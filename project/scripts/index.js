@@ -58,4 +58,25 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // Iframe Lazy Loading
+    // Check for native lazy loading support
+    if (!('loading' in HTMLIFrameElement.prototype)) {
+        // Polyfill lazy loading for browsers that don't support it
+        const iframes = document.querySelectorAll('iframe[loading="lazy"]');
+        const lazyLoad = function() {
+            iframes.forEach(function(iframe) {
+                if (iframe.getBoundingClientRect().top < window.innerHeight && iframe.getBoundingClientRect().bottom > 0 && getComputedStyle(iframe).display !== 'none') {
+                    if (iframe.dataset.src) {
+                        iframe.src = iframe.dataset.src;
+                    }
+                    iframe.removeAttribute('loading');
+                }
+            });
+        };
+        lazyLoad(); // Run on initial load
+        window.addEventListener('scroll', lazyLoad);
+        window.addEventListener('resize', lazyLoad);
+        window.addEventListener('orientationchange', lazyLoad);
+    }
 });

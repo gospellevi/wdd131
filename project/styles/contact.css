@@ -151,19 +151,14 @@ nav ul li a:hover {
 
 .contact-support {
     margin: 10px auto;
-    background-color: #fce3e3;
+    text-align: center;
 }
 
 .contact-support article {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding-bottom: 1em;
     color: #fff;
-}
-
-.contact-support h4, p, form {
-    text-align: center;
 }
 
 .contact-support article div {
@@ -174,84 +169,92 @@ nav ul li a:hover {
     background-color: var(--secondary-color);
 }
 
-.contact-support form {
-    background-color: var(--secondary-color);
+.contact-support button {
+    margin-top: 35px;
+    background-image: linear-gradient(#5cb85c, #238a23);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 1rem;
+    width: 80%;
+    font-size: 24px;
 }
 
-button[type="button"] {
-    /* background-color: #da0416; */
-    margin: 10px;
-
-}
-
-button[type="button"]:hover {
+.contact-support button:hover {
     background-color: #000;
     color: #fff;
 }
 
 .fone {
     display: flex;
-    font-style: italic;
-    max-width: 250px;
+    align-items: center;
+    background: linear-gradient(#5cb85c, #238a23);
+    max-width: 90%;
+    height: 60px;
 }
 
 .fone img {
-    margin-left: 60px;
+    width: 50px;
 }
+
+.fone a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+
 /*section elements styling*/
 .company-info {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 300px 1fr;
     background-color: var(--primary-color);
+    color: #fff;
 }
 
-.company-info div {
+.address {
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 10px;
+    align-items:flex-start;
+    margin-left: 10px;
 }
 
-.company-info div, 
-h2, 
-.company-info h4 {
-    color: white;
+.company-info .sociallinks img {
+    align-self: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 50px;
 }
-
-.company-info p {
-    padding-left: 10px;
-}
-
-.sociallinks {
-    gap: 5px;
+.company-info .sociallinks img:hover {
+    transform: scale(1.5);
 }
 
 iframe {
     border: none;
-    margin-right: 0;  
+    width: 100%;
+    height: 450px;
+    
 }
 
 /* employee profile styling */
 .employee-profiles {
-    margin: 10px auto;
-    background-color: var(--secondary-color);
+    margin: 20px auto;
+    background-color: var(--nav-link-color);
 }
 
 .employee-profiles h5 {
     text-align: center;
-    border: 2px solid ;
-    border-width: 0 100px;
-    border-color: var(--secondary-color);
     color: #fff;
-    background-color: var(--primary-color);
-    margin-top: 10px;
+    margin: 10px;
 }
 
 .employee-profiles h3 {
     font-size: 30px;
     color: #fff;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .employee-profiles div {
@@ -262,41 +265,33 @@ iframe {
 
 .employee-profiles div img {
     justify-self: center;
+    width: 300px; 
+    height: 300px;
 }
 
-/* @media screen and (max-width: 768px) {
-    .employee-profiles div {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-    }
-
-    .employee-profiles h5:first-of-type {
-        grid-row: 1;
-    }
-
-    .employee-profiles h5:nth-of-type(2) {
-        grid-row: 3;
-    }
-
-    .employee-profiles h5:last-of-type {
-        grid-row: 5;
-    }
-} */
 
 /*Styling Forms Area*/
 /* fieldset and Legend Styling */
-form {
-    background-color: #525151;
-    padding: 10px;
-    color: #fff;
+
+.contact-form {
+    /* width: 100%; */
+    max-width: 600px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--primary-color);
+    /* color: #fff; */
+    color: #000;
 }
 
-fieldset {
-    margin: 10px 0;
-    padding: 10px 20px;
-    border: 1px solid #000;
-    border-radius: 6px;
-    min-width: 200px;
+.contact-form fieldset {
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    padding: .5rem 2%;
 }
 
 legend {
@@ -304,28 +299,22 @@ legend {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
     padding: 5px;
-    color: #fff;
+    /* color: #fff; */
 }
 
 label {
     display: block;
     margin-top: 10px;
+    color: #fff;
+    text-align: left;
+    font-size: 1.1rem;
 }
 
-.name-email label {
 
-    text-align: start;
-    margin-left: 5em;
-}
-
-.name-email input {
-    padding: 5px;
-    border: 1px solid #000;
-    max-width: 300px;
-}
-
-input[type="email"], input[type="text"] {
-    width: 25em;
+input[type="email"], 
+input[type="text"] {
+    min-width: 100%;
+    padding: 15px;
 }
 
 textarea {
@@ -336,58 +325,43 @@ textarea {
     margin: 1em 0;
 }
 
-fieldset h4 {
-    margin-top: 1em;
-}
-
 /*Radio buttons and Check boxes*/
 .radios {
-    margin-bottom: 1em;
-
-}
-
-input[type="checkbox"] + label, input[type="radio"] + label {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    text-align: left; 
 }
 
 input[type="radio"]:first-of-type {
-    margin-left: 0;
+    margin-right: 10px;
 }
+
+.form-group:nth-of-type(5) {
+    margin-left: 5rem;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
 
 /*styling the submit button*/
 input[type="submit"] {
-    padding: .5em 1em;
+    padding: .6em 3.5em;
     border-radius: .25em;
     background-color: #000;
     color: #fff;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 input[type="submit"]:hover {
     background-color: #fff;
-    color: var(--secondary-color);
+    color: #0056b3;
     font-weight: 700;
     border: 2px solid #da0416;
 }
 
-/* @media screen and (min-width: 600px) {
-    fieldset {
-        width: 40%;
-        min-width: 320px;
-        margin: auto;
-    }
-    
-    .radios label {
-        display: inline-block;
-        padding-top: .5em;
-        margin-top: 0;
-        margin-right: .5em;
-    }
-} */
-
-/* the footer styling begins here */
-
-/* ----------------------------Footer styles--------------------- */
+/* -------------------------------Footer styles-------------------------- */
 footer {
     display: grid;
     grid-template-columns: 90% 1fr;
@@ -399,6 +373,7 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    margin-top: 1rem;
 }
 
 footer p:first-of-type {
@@ -431,4 +406,30 @@ footer .social-media img {
 
 footer .social-media img:hover {
     transform: scale(1.5);
+}
+
+@media (max-width: 600px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .employee-profiles div {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .employee-profiles h5:first-of-type {
+        grid-row: 1;
+    }
+
+    .employee-profiles h5:nth-of-type(2) {
+        grid-row: 3;
+    }
+
+    .employee-profiles h5:last-of-type {
+        grid-row: 5;
+    }
+    
 }
