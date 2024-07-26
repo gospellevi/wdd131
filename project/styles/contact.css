@@ -276,13 +276,14 @@ iframe {
 .contact-form {
     /* width: 100%; */
     max-width: 600px;
-    font-size: 16px;
+    /* font-size: 16px; */
     font-family: Arial, sans-serif;
     margin: 0 auto;
     padding: 20px;
+    border-radius: 8px;
     background-color: var(--primary-color);
     /* color: #fff; */
-    color: #000;
+    /* color: #000; */
 }
 
 .contact-form fieldset {
@@ -299,14 +300,13 @@ legend {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
     padding: 5px;
-    /* color: #fff; */
+    text-align: center;
 }
 
 label {
     display: block;
     margin-top: 10px;
     color: #fff;
-    text-align: left;
     font-size: 1.1rem;
 }
 
@@ -322,22 +322,21 @@ textarea {
     min-width: 100%;
     padding: 5px;
     border: 1px solid #000;
-    margin: 1em 0;
 }
 
 /*Radio buttons and Check boxes*/
 .radios {
     display: flex;
     flex-direction: column;
-    text-align: left; 
 }
 
 input[type="radio"]:first-of-type {
     margin-right: 10px;
 }
 
-.form-group:nth-of-type(5) {
-    margin-left: 5rem;
+.form-group:nth-of-type(5),
+.form-group:nth-of-type(6) {
+    text-align: center;
 }
 
 input[type="checkbox"] {
@@ -356,7 +355,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #fff;
-    color: #0056b3;
+    color: #000;
     font-weight: 700;
     border: 2px solid #da0416;
 }
