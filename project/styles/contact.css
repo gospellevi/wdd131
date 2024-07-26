@@ -92,6 +92,11 @@ header {
     margin-left: 1rem;
     cursor: pointer;
 }
+.top-bar button:hover {
+    background: #fff;
+    color: #000;
+    transform: scale(1.1);
+}
 
 header nav{
     display: flex;
@@ -144,7 +149,6 @@ nav ul li a:hover {
     font-size: 1.2rem;
     color: #e74c3cff;
 }
-
 
 
 /* ******************Contact Us Page styling starts here******************** */
