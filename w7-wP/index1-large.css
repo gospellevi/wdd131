@@ -1,0 +1,52 @@
+/* Large Screen Styles */
+@media (min-width: 769px) {
+    #hamburger {
+        display: none;
+    }
+
+    #navMenu {
+        display: flex;
+        position: static;
+        transform: none;
+    }
+
+    #navMenu ul {
+        flex-direction: row;
+    }
+
+    .hero {
+        text-align: left;
+    }
+
+    .tagline {
+        position: absolute;
+        left: 150px;
+        top: 15%;
+        width: auto;
+    }
+
+    form {
+        position: absolute;
+        left: 150px;
+        top: 30%;
+        width: auto;
+    }
+
+    .service-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .contact {
+        flex-direction: row;
+    }
+
+    .contact img {
+        max-width: 300px;
+        margin-right: 2rem;
+        margin-bottom: 0;
+    }
+
+    footer {
+        grid-template-columns: 90% 1fr;
+    }
+}

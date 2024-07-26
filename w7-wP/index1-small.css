@@ -1,0 +1,80 @@
+/* Small Screen Styles */
+@media (max-width: 768px) {
+    header {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .top-bar {
+        position: static;
+        transform: none;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    #navMenu {
+        display: none;
+        position: static;
+        transform: none;
+        background-color: var(--nav-background-color);
+        padding: 1rem;
+    }
+
+    #navMenu.show {
+        display: block;
+    }
+
+    #navMenu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navMenu ul li {
+        margin: 0.5rem 0;
+    }
+
+    .hero {
+        text-align: center;
+    }
+
+    .hero img {
+        filter: none;
+        opacity: 1;
+    }
+
+    .tagline {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    form {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .service-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact img {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+    }
+}
