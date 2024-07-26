@@ -208,6 +208,10 @@ nav ul li a:hover {
     margin-left: 1rem;
 }
 
+.fone:hover,
+.customer-support:hover {
+    background: linear-gradient(#5cb85c, #011401);
+}
 
 /*section elements styling*/
 .company-info {
@@ -231,6 +235,7 @@ nav ul li a:hover {
     margin-left: 20px;
     width: 50px;
 }
+
 .company-info .sociallinks img:hover {
     transform: scale(1.5);
 }
@@ -373,9 +378,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
     margin-top: 1rem;
 }
 
@@ -461,15 +463,25 @@ footer .social-media img:hover {
         font-weight: 500;
     }
 
-    footer {
+    .company-info {
         display: flex;
         flex-direction: column;
         align-items: center;
+        font-size: 1.2rem;
+    }
+
+    .address {
+        margin-bottom: 1rem;
+    }
+
+    .address h2 {
+       align-self: center;
     }
 
     .employee-profiles div {
         grid-template-columns: 1fr;
-        grid-template-rows: auto;
+        /* grid-template-rows: auto; */
+        padding-bottom: 1rem;
     }
 
     .employee-profiles h5:first-of-type {
@@ -482,5 +494,12 @@ footer .social-media img:hover {
 
     .employee-profiles h5:last-of-type {
         grid-row: 5;
+    }
+
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
