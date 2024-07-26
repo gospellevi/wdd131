@@ -59,7 +59,7 @@
     }
 
     .tagline {
-        left: 5%;
+        left: 3%;
     }
 
     .tagline h1 {
@@ -72,7 +72,7 @@
 
     form {
         /* background-color: rgba(0, 0, 0, 0.8); */
-        transform: translate(-7rem, -18rem);
+        transform: translate(-7rem, -17rem);
         width: 85%;
     }
 

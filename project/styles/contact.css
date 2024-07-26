@@ -408,7 +408,56 @@ footer .social-media img:hover {
     transform: scale(1.5);
 }
 
-@media (max-width: 600px) {
+/* --------------------------Media queries------------------------- */
+
+@media (max-width: 767px) and (min-width: 320px) {
+    /* Container Styling */
+    .container {
+        width: 100%;
+        /* width: 400px; */
+        padding: 0.5rem;
+    }
+
+    /* Header Styling */
+    .logo {
+        justify-content: right;
+        margin-top: 3.5rem;
+    }
+
+    .logo a {
+        font-size: 1.5rem;
+    }
+
+    .logo img {
+        width: 60px;
+    }
+
+    .top-bar {
+        right: 5%;
+        transform: none;
+    }
+        
+    /* Navigation Menu */
+    #navMenu {
+        display: none; 
+        left: 1%;  
+    }
+
+    #navMenu.show {
+        transform: translate(4rem, -1rem);
+    }
+
+    #hamburger {
+        transform: none;
+        top: 4rem;
+    }
+    
+    nav ul li a:hover {
+        font-size: 1.1rem;
+        color: black;
+        font-weight: 500;
+    }
+
     footer {
         display: flex;
         flex-direction: column;
@@ -431,5 +480,4 @@ footer .social-media img:hover {
     .employee-profiles h5:last-of-type {
         grid-row: 5;
     }
-    
 }
