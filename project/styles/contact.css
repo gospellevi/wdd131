@@ -415,7 +415,7 @@ footer .social-media img:hover {
 
 /* --------------------------Media queries------------------------- */
 
-@media (max-width: 767px) and (min-width: 320px) {
+@media (max-width: 767px) and (min-width: 200px) {
     /* Container Styling */
     .container {
         width: 100%;
