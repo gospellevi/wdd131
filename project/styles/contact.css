@@ -496,7 +496,11 @@ footer .social-media img:hover {
         grid-row: 5;
     }
 
-    
+    input[type="submit"] {
+        padding: .4em 2em;
+        font-size: 1.5em;
+    }
+
     footer {
         display: flex;
         flex-direction: column;
