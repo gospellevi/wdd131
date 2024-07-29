@@ -79,4 +79,5 @@ document.addEventListener('DOMContentLoaded', () => {
         window.addEventListener('resize', lazyLoad);
         window.addEventListener('orientationchange', lazyLoad);
     }
+    
 });

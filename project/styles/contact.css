@@ -209,7 +209,7 @@ nav ul li a:hover {
 
 .fone:hover,
 .customer-support:hover {
-    background: linear-gradient(#5cb85c, #011401);
+    background: linear-gradient(#333, #000);
 }
 
 /*section elements styling*/

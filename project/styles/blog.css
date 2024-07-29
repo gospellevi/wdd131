@@ -45,7 +45,6 @@ header {
     display: grid;
     grid-template-columns: 1fr auto;
     background: var(--nav-link-color);
-    color: #fff;
     padding: 1rem;
 }
 
@@ -155,7 +154,6 @@ nav ul li a:hover {
 
 main {
     padding: 2rem;
-    /* background: linear-gradient(rgba(197, 189, 69, 1), rgba(10, 10, 0, 1)); */
     background: linear-gradient(#013e80, #00060c);
     color: #fff;
     text-align: center;
@@ -163,8 +161,8 @@ main {
 }
 
 .btn {
-    background-color: #c5bd45;
-    color: #000;
+    background-color: #000;
+    color: #fff;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
