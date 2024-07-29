@@ -14,15 +14,12 @@
     --nav-hover-background-color: #24afffa1;
 }
 
-/* Basic reset */
-
+/* ------------Basic reset------------ */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
 
 /* Body styles */
 body {
@@ -154,19 +151,22 @@ nav ul li a:hover {
     padding: 20px;
 }
 
-
-
 .callToAction {
     position: absolute;
     top: 400px;
     transform: translate(5%, -4%);
-    background: linear-gradient(rgba(252, 235, 7, 0.3), rgba(15, 15, 1, 0.7));
+    background: linear-gradient(rgba(51, 51, 51, 0.7), rgba(0, 0, 0, 0.9));
     padding: 20px;
     border-radius: 5px;
+    font-family: var(--paragraph-font);
 }
 
 .callToAction h1 {
     margin-bottom: 20px;
+}
+
+.callToAction p {
+    word-spacing: 0.3em; /* Adjust the value as needed */
 }
 
 .callToAction a {
@@ -175,11 +175,11 @@ nav ul li a:hover {
     font-weight: 700;
     font-style: italic;
     padding-right: 5px;
+    font-family: var(--heading-font);
 }
 
 .callToAction a:hover {
     color: gold;
-
 }
 
 .servicesPage h1,
@@ -311,7 +311,7 @@ footer .social-media img:hover {
 
 
 /* Media query for smaller screens (e.g., mobile) */
-@media (max-width: 767px) and (min-width: 200px) {
+@media (max-width: 767px) and (min-width: 320px) {
     /* Container Styling */
     .container {
         width: 100%;

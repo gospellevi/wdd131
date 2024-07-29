@@ -79,7 +79,6 @@ header {
 
 .top-bar {
    position: absolute;
-   /* right: 80%; */
    transform: translate(470%, -55%);
 }
 
@@ -170,12 +169,12 @@ nav ul li a:hover {
     margin: 10px;
     padding: 20px;
     border-radius: 5px;
-    background-color: var(--secondary-color);
+    background-color: #0056b3;
 }
 
 .contact-support button {
     margin-top: 35px;
-    background-image: linear-gradient(#5cb85c, #238a23);
+    background: linear-gradient(#013e80, #00060c);
     color: white;
     border: none;
     border-radius: 6px;
@@ -192,7 +191,7 @@ nav ul li a:hover {
 .fone {
     display: flex;
     align-items: center;
-    background: linear-gradient(#5cb85c, #238a23);
+    background: linear-gradient(#013e80, #00060c);
     max-width: 90%;
     height: 60px;
 }
@@ -217,8 +216,7 @@ nav ul li a:hover {
 .company-info {
     display: grid;
     grid-template-columns: 300px 1fr;
-    background-color: var(--primary-color);
-    color: #fff;
+    background-color: var(--nav-link-color);
 }
 
 .address {
@@ -227,7 +225,9 @@ nav ul li a:hover {
     row-gap: 10px;
     align-items:flex-start;
     margin-left: 10px;
+    color: #fff;
 }
+
 
 .company-info .sociallinks img {
     align-self: center;
@@ -244,6 +244,7 @@ iframe {
     border: none;
     width: 100%;
     height: 450px;
+    background-color: rgba(179, 45, 45);
     
 }
 
@@ -276,6 +277,7 @@ iframe {
     justify-self: center;
     width: 300px; 
     height: 300px;
+    /* height: 250px; */
 }
 
 
@@ -285,14 +287,11 @@ iframe {
 .contact-form {
     /* width: 100%; */
     max-width: 600px;
-    /* font-size: 16px; */
     font-family: Arial, sans-serif;
     margin: 0 auto;
     padding: 20px;
     border-radius: 8px;
-    background-color: var(--primary-color);
-    /* color: #fff; */
-    /* color: #000; */
+    background-color: #0056b3;
 }
 
 .contact-form fieldset {
@@ -310,6 +309,7 @@ legend {
     font-weight: 700;
     padding: 5px;
     text-align: center;
+    color: #fff;
 }
 
 label {
@@ -415,7 +415,7 @@ footer .social-media img:hover {
 
 /* --------------------------Media queries------------------------- */
 
-@media (max-width: 767px) and (min-width: 200px) {
+@media (max-width: 767px) and (min-width: 320px) {
     /* Container Styling */
     .container {
         width: 100%;
