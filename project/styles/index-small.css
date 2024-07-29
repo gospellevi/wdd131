@@ -63,7 +63,6 @@
     }
 
     .tagline {
-        /* left: 3%; */
         left: 7.25%;
         top: 10%;
         padding: 0.5rem 0.25rem;
@@ -73,7 +72,6 @@
 
     .tagline h1 {
         font-size: 1.5rem;
-        /* margin-top: 1rem; */
     }
 
     .tagline p {
