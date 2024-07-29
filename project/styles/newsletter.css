@@ -26,14 +26,14 @@ header {
 
 .logo {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     align-items: center;
+    gap: 10px;
 }
 
 .logo a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.5em;
     font-weight: bold;
 }
 
